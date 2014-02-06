@@ -4,7 +4,7 @@
 # rild.libpath=/system/lib/libril-moto-umts-1.so
 rild.libpath=/system/lib/libmoto_ril.so
 rild.libargs=-d /dev/ttyO0
-telephony.lteOnCdmaDevice=1
+telephony.lteOnCdmaDevice=0
 ro.mot.ril.danlist=611,*611,#611
 persist.ril.ecclist=911,*911,#911
 
@@ -19,8 +19,8 @@ ro.modem_available=0
 ro.telephony.default_network=10
 ro.url.legal=http://www.google.com/intl/%s/mobile/android/basic/phone-legal.html
 ro.url.legal.android_privacy=http://www.google.com/intl/%s/mobile/android/basic/privacy.html
-ro.cdma.home.operator.numeric=310004
-ro.cdma.home.operator.alpha=Verizon
+ro.cdma.home.operator.numeric=46001
+ro.cdma.home.operator.alpha=ChinaTelecom
 ro.config.svdo=true
 
 # our HTML browser (not WAP browser ) based on requirements IKHSS6-1061 need to specify UAProf URL
